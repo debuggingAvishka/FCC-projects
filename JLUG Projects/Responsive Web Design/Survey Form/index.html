@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="styles.css"> 
+    <meta>
+    <title>survey form
+    </title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve!</p>
+    <form id="survey-form">
+      <fieldset>
+     <label id="name-label">Name:
+        <input type="text" id="name" placeholder="Enter you name" required/>
+     </label>
+     <label id="email-label">Email:
+      <input type="email" id="email" placeholder="Enter your email" required/>
+     </label>
+     <label id="number-label">Age(optional):
+       <input type="number" id="number" placeholder="Enter your number" min="0" max="120"/>
+      </label>
+      </fieldset>
+      <fieldset>
+      Which option best describes your current role?
+      <select id="dropdown">
+        <option>Select an option</option>
+        <option>Student</option>
+        <option>Full time learner</option>
+        <option>Full time Job</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+      Would you recommend FreeCodeCamp to a Friend?<label><input type="radio" name="recommendation" value="Yes" checked class="inline"/>Yes</label>
+      <input type="radio" name="recommendation" value="Maybe"/>Maybe
+      <input type="radio" name="recommendation" value="No"/>No
+     </fieldset>
+     <fieldset> What would you like to see us improve?
+      <input type="checkbox" value="v1" class="inline"/>Front-end Projects
+      <input type="checkbox" value="v2"/>Back-end Projects
+      <input type="checkbox" value="v3"/>Data Visualization
+      <input type="checkbox" value="v4"/>Challenges
+      <input type="checkbox" value="v5"/>Opensource Community
+      <input type="checkbox" value="v6"/>Additional Courses
+      </fieldset>
+      <fieldset>
+      Any comments or suggestions?<textarea></textarea>
+      <button id="submit">Submit</button>
+      </fieldset>
+      </form>
+  </body>
+</html>
