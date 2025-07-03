@@ -9,8 +9,6 @@ This repository contains a collection of my projects completed under FreeCodeCam
 ### 📁 Responsive Web Design  
 Projects built using *HTML & CSS* under the FreeCodeCamp Responsive Web Design Certification.  
 
-> 📢 Make sure GitHub Pages is enabled on the root of the repo (main branch, / (root) folder) to access the following links.
-
 - [Cafe Menu](https://github.com/debuggingAvishka/FCC-projects/tree/main/JLUG%20Projects/Responsive%20Web%20Design/Cafe%20Menu)
 - [Cat Photo App](https://github.com/debuggingAvishka/FCC-projects/tree/main/JLUG%20Projects/Responsive%20Web%20Design/Cat%20Photo%20App)
 - [Color Markers](https://github.com/debuggingAvishka/FCC-projects/tree/main/JLUG%20Projects/Responsive%20Web%20Design/Color%20Markers)
